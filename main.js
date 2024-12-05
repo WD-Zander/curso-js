@@ -127,4 +127,3 @@ if (userName === "admin") {
 } else {
     alert("No sé quién eres");
 }
-// subirlo a git y restablecer la rama :,,,,,V
