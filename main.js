@@ -50,9 +50,81 @@
 // Num3++;
 // alert(Num3);
 // Operadores de comparacion
-alert( 2 > 1 );
-alert( 2 < 1 );
-alert( 2 == 1 );
-alert( 2 != 1 );
+// alert( 2 > 1 );
+// alert( 2 < 1 );
+// alert( 2 == 1 );
+// alert( 2 != 1 );
 
 // Condicionales
+// let year = prompt("ingrese el año actual:");
+// if (year==2024){
+//     alert("Muy bien");
+//     alert("Eres genial");
+// }
+
+// let year = prompt("ingrese el año actual:");
+// if (year==2024){
+//     alert("Muy bien");
+//     alert("Eres genial");
+// }
+// else {
+//     alert("No es correcto");
+// }
+
+// condicionales encadenados
+// let year = prompt("ingrese el año actual:");
+// if (year==2024){
+//     alert("Muy bien");
+//     alert("Eres genial");
+// }
+// else if (year > 2024){
+//     alert("Muy alto");
+// }
+// else if (year < 2024){
+//     alert("Muy bajo")
+// }
+// else {
+//     alert("No es correcto");
+// }
+
+// Operadores logicos
+// or ||
+// alert(true || true); //true
+// alert(true || false); //true
+// alert( false || true); // true
+// alert( false || false); // falso
+
+// let hour = 12 ;
+// let isWeekend = false;
+// if (hour < 9 || hour > 18 || isWeekend){
+//     alert("La ofician esta cerrada");
+// }
+// else {
+//     alert("Open!");
+// }
+
+// and &&
+// alert(true && true); // true
+// alert(true && false); // false
+// alert(false && true); // false
+// alert( false && false); // false
+
+//solution 
+let userName = prompt('¿Quién eres tú?', '');
+
+// La verificación de la contraseña debe estar dentro del bloque if de userName
+if (userName === "admin") {
+    let passWord = prompt('Clave', '');
+    if (passWord === "Master") {
+        alert("Bienvenido");
+    } else if (passWord === '' || passWord === null) {
+        alert("Cancelado");
+    } else {
+        alert("Clave incorrecta");
+    }
+} else if (userName === "" || userName === null) {
+    alert("Cancelado");
+} else {
+    alert("No sé quién eres");
+}
+// subirlo a git y restablecer la rama :,,,,,V
