@@ -110,10 +110,10 @@
 // alert( false && false); // false
 
 //solution 
-let userName = prompt('¿Quién eres tú?', '');
+//let userName = prompt('¿Quién eres tú?', '');
 
 // La verificación de la contraseña debe estar dentro del bloque if de userName
-if (userName === "admin") {
+/* if (userName === "admin") {
     let passWord = prompt('Clave', '');
     if (passWord === "Master") {
         alert("Bienvenido");
@@ -127,3 +127,31 @@ if (userName === "admin") {
 } else {
     alert("No sé quién eres");
 }
+ */
+
+
+// Ciclo While
+
+/* let counter = 0 ; */
+
+/* while ( counter < 3) {
+    alert(counter);
+    counter++;
+}
+ */
+
+// ciclo for
+
+/* 
+for (i=0; counter < 3 ; counter++ ){
+    alert(counter)
+} */
+
+
+    function showMessage(){
+        let nombre = 'ZANDER J'
+        console.log(`El dueno de esta Pc es >>>>> ${nombre}`)
+    }
+
+    showMessage();
+ 
